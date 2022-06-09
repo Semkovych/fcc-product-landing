@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&family=Open+Sans:ital,wght@0,400;1,500&family=Roboto:wght@300;700&family=Ubuntu:wght@400;700&display=swap');
+
+body {
+    font-family: 'Montserrat';
+    background-color: bisque;
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+container {
+    background-image: url("../img/stretching.jpg");
+
+}
+
+img {
+    width: 600px;
+    height: 500px;
+}
+
+.header-foto {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding-left: 100px;
+    display: flex;
+    display: block;
+    float: left;
+}
+
+.header-video {
+    text-align: center;
+}
+
+.header-button {
+    text-align: center;
+}
+
+
+@media screen { min-width: 820px;
+    
